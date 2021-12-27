@@ -16,14 +16,17 @@ header {
     background-color: #2f4454;
     display: flex;
     justify-content: space-between;
-    background-image: url("/assets/images/top-header.jpg");
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
 }
 
 header h1 {
-
+    display: inline-block;
+    background-color: #2e151b;
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 50px;
+    text-align: right;
+    padding: 5px 5px 5px 30px;
 }
 
 header a {
@@ -54,12 +57,35 @@ header nav ul li a {
 /* Subtitle Begin */
 
 .subtitle {
+    display: flex;
     background-color: #da7b93;
+    width: auto;
+    height: 200px;
+    background-image: url("/assets/images/top-header.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
 }
 
 .subtitle h2 {
     color: #2e151b;
+    background-color: #376e6f;
+    margin-left: auto;
+    align-self: flex-end;
+    padding: 5px;
 }
 
 /* Subtitle End */
+
+/*  */
+
+.info h3 {
+    text-align: left;
+    color: #2e151b;
+}
+
+.info p {
+    text-align: center;
+    color: #2e151b;
+}
 
