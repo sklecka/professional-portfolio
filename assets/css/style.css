@@ -15,11 +15,11 @@ header {
     padding: 20px 35px;
     background-color: #2f4454;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 header h1 {
-    display: inline-block;
     background-color: #2e151b;
     position: absolute;
     left: 0;
@@ -36,11 +36,12 @@ header a {
 
 header nav {
     margin: 7px 0;
+    width: 700px;
+    justify-content: space-between;
 }
 
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -61,7 +62,7 @@ header nav ul li a {
     background-color: #da7b93;
     width: auto;
     height: 200px;
-    background-image: url("/assets/images/top-header.jpg");
+    background-image: url("../images/top-header.jpg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
@@ -72,20 +73,41 @@ header nav ul li a {
     background-color: #376e6f;
     margin-left: auto;
     align-self: flex-end;
-    padding: 5px;
+    padding: 10px;
+    margin-left: 70%;
+    margin-bottom: 20px;
 }
 
 /* Subtitle End */
 
 /*  */
 
-.info h3 {
-    text-align: left;
-    color: #2e151b;
+.info {
+    display:flex;
+    flex-direction: column;
 }
 
-.info p {
-    text-align: center;
-    color: #2e151b;
+h3 {
+    width: 100%;
+}
+
+#about-me {
+    display: flex;
+    align-items: flex-start;
+}
+
+#about-me p {
+    text-align: left;
+    border-left: solid;
+}
+
+#work {
+    display: flex;
+    align-items: flex-start;
+}
+
+#contact-me {
+    display: flex;
+    align-items: flex-start;
 }
 
