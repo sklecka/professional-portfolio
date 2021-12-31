@@ -91,32 +91,40 @@ h3 {
     width: 20%;
 }
 
-.about-me {
+#about-me {
     display: flex;
     align-items: flex-start;
 }
 
-.about-me p {
+#about-me p {
     text-align: left;
     border-left: solid;
     width: 80%;
 }
 
-.work {
+#work {
     display: flex;
     align-items: flex-start;
 }
 
-.work img {
-
+.projects {
+    display: flex;
+    margin: 10px 80px 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: min-content;
 }
 
-.contact-me {
+.two-images {
+    margin-top: 10px;
+}
+
+#contact-me {
     display: flex;
     align-items: flex-start;
 }
 
-.contact-me ul {
+#contact-me ul {
     display: flex;
     width: 90%;
     justify-content: space-between;
