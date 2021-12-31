@@ -88,26 +88,39 @@ header nav ul li a {
 }
 
 h3 {
-    width: 100%;
+    width: 20%;
 }
 
-#about-me {
+.about-me {
     display: flex;
     align-items: flex-start;
 }
 
-#about-me p {
+.about-me p {
     text-align: left;
     border-left: solid;
+    width: 80%;
 }
 
-#work {
+.work {
     display: flex;
     align-items: flex-start;
 }
 
-#contact-me {
+.work img {
+
+}
+
+.contact-me {
     display: flex;
     align-items: flex-start;
+}
+
+.contact-me ul {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
 }
 
