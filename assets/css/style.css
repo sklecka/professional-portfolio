@@ -31,7 +31,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #da7b93;;
+    color: #da7b93;
 }
 
 header nav {
@@ -87,21 +87,29 @@ header nav ul li a {
     flex-direction: column;
 }
 
+/* styles all h3 text within info section */
 h3 {
+    display: flex;
+    justify-content: flex-end;
     width: 20%;
+    font-size: xx-large;
+    padding: 0 10px;
 }
 
 #about-me {
     display: flex;
     align-items: flex-start;
+    padding: 20px 0;
 }
 
 #about-me p {
     text-align: left;
     border-left: solid;
     width: 80%;
+    padding: 0 50px;
 }
 
+/* work section */
 #work {
     display: flex;
     align-items: flex-start;
@@ -109,16 +117,27 @@ h3 {
 
 .projects {
     display: flex;
-    margin: 10px 80px 10px 10px;
+    margin: 0 80px 10px 0;
     flex-wrap: wrap;
     justify-content: space-between;
     width: min-content;
+    border-left: solid;
+    padding: 0 50px;
+}
+
+.run-buddy {
+
+}
+
+.run-buddy span {
+    
 }
 
 .two-images {
     margin-top: 10px;
 }
 
+/* contact me section */
 #contact-me {
     display: flex;
     align-items: flex-start;
@@ -126,9 +145,18 @@ h3 {
 
 #contact-me ul {
     display: flex;
-    width: 90%;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
     position: relative;
+    width: 80%;
+    height: 50px;
+    padding: 0 300px 0 50px;
+    border-left: solid;
+}
+
+#contact-me ul a {
+    color: #da7b93;
+    text-decoration-thickness: 2px;
 }
 
