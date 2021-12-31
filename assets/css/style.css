@@ -126,15 +126,12 @@ h3 {
 }
 
 .run-buddy {
-
-}
-
-.run-buddy span {
-    
+    border: #2e151b solid;
 }
 
 .two-images {
     margin-top: 10px;
+    border: #2e151b solid;
 }
 
 /* contact me section */
