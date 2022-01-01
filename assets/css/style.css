@@ -6,21 +6,22 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: #da7b93;
+    color: #4f4846;
+    background: #E8CEBF;
 }
 
 /* Header Begin */
 
 header {
     padding: 20px 35px;
-    background-color: #2f4454;
+    background-color: #266150;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 header h1 {
-    background-color: #2e151b;
+    background-color: #FDF8F5;
     position: absolute;
     left: 0;
     width: 400px;
@@ -31,7 +32,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #da7b93;
+    color: #266150;
 }
 
 header nav {
@@ -51,6 +52,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    color: #FDF8F5;
 }
 
 /* Header End */
@@ -59,7 +61,7 @@ header nav ul li a {
 
 .subtitle {
     display: flex;
-    background-color: #da7b93;
+    background-color: #4f4846;
     width: auto;
     height: 200px;
     background-image: url("../images/top-header.jpg");
@@ -69,8 +71,8 @@ header nav ul li a {
 }
 
 .subtitle h2 {
-    color: #2e151b;
-    background-color: #376e6f;
+    color: #266150;
+    background-color: #FDF8F5;
     margin-left: auto;
     align-self: flex-end;
     padding: 10px;
@@ -126,12 +128,12 @@ h3 {
 }
 
 .run-buddy {
-    border: #2e151b solid;
+    border: #266150 solid;
 }
 
 .two-images {
     margin-top: 10px;
-    border: #2e151b solid;
+    border: #266150 solid;
 }
 
 /* contact me section */
@@ -153,7 +155,7 @@ h3 {
 }
 
 #contact-me ul a {
-    color: #da7b93;
+    color: #4f4846;
     text-decoration-thickness: 2px;
 }
 
