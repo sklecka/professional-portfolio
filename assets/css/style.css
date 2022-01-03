@@ -131,9 +131,17 @@ h3 {
     border: #266150 solid;
 }
 
+.run-buddy:hover {
+    -webkit-filter: brightness(110%);
+}
+
 .two-images {
     margin-top: 10px;
     border: #266150 solid;
+}
+
+.two-images:hover {
+    -webkit-filter: brightness(110%);
 }
 
 /* contact me section */
@@ -150,12 +158,13 @@ h3 {
     position: relative;
     width: 80%;
     height: 50px;
-    padding: 0 300px 0 50px;
+    padding: 0 250px 0 50px;
     border-left: solid;
 }
 
 #contact-me ul a {
     color: #4f4846;
     text-decoration-thickness: 2px;
+    font-size: larger;
 }
 
