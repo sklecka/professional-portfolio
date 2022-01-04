@@ -70,6 +70,12 @@ header nav ul li a {
     background-attachment: fixed;
 }
 
+.subtitle img {
+    border: #FDF8F5 solid;
+    position: absolute;
+    margin: 25px;
+}
+
 .subtitle h2 {
     color: #266150;
     background-color: #FDF8F5;
