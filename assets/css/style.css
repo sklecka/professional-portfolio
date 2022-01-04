@@ -158,6 +158,40 @@ h3 {
     -webkit-filter: brightness(110%);
 }
 
+.horiseon-text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left-two {
+    position: absolute;
+    bottom: 8px;
+    left: auto;
+    background: #266150;
+    padding: 10px;
+    font-size: x-large;
+    margin: 10px 0 15px 0;
+    color: #FDF8F5;
+}
+
+.placeholder-text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left-three {
+    position: absolute;
+    bottom: 8px;
+    left: auto;
+    background: #266150;
+    padding: 10px;
+    font-size: x-large;
+    margin: 10px 0 15px 0;
+    color: #FDF8F5;
+}
+
 .two-images {
     margin-top: 10px;
     border: #266150 solid;
