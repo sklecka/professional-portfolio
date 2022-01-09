@@ -114,7 +114,7 @@ h3 {
     text-align: left;
     border-left: solid;
     width: 80%;
-    padding: 0 50px;
+    padding: 0 150px 0 50px;
 }
 
 /* work section */
@@ -225,3 +225,39 @@ h3 {
     font-size: larger;
 }
 
+/* Media Query for Smaller Desktops Screens and Smaller */
+@media screen and (max-width: 980px) {
+    header nav ul {
+        width: 60%;
+        margin: 0 0 0 300px;
+    }
+
+    #about-me p {
+        font-size: 12px;
+    }
+
+    .projects {
+        margin: 0 0 20px 0;
+    }
+    
+    .run-buddy {
+        width: 600px;
+    }
+
+    .two-images {
+        width: 290px;
+    }
+
+    #contact-me ul {
+        padding: 0 130px 0 50px;
+    }
+    
+}
+
+/* Media Query for Tablets and Smaller */
+@media screen and (max-width: 768px) {
+
+    #contact-me ul {
+        padding: 0 130px 0 50px;
+    }
+}
